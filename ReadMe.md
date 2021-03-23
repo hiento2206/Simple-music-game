@@ -43,6 +43,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Winning state:
+![win](https://i.imgur.com/A6WbByd.gif)
+![w](win.gif)
 <img src="https://cdn.glitch.com/4ae94571-8cd8-489f-85f9-6c466bfc5720%2Fwin.gif?v=1616542096209">
 
 Losing by 3 mistakes:
