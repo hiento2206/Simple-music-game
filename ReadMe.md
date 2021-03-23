@@ -43,13 +43,13 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Winning state:
-https://i.imgur.com/A6WbByd.gif
+<img src="https://i.imgur.com/A6WbByd.gif">
 
 Losing by 3 mistakes:
-https://i.imgur.com/QdPkiW2.gif
+<img src="https://i.imgur.com/QdPkiW2.gif">
 
 Losing by timeout:
-https://i.imgur.com/sQxmxH6.gif
+<img src="https://i.imgur.com/sQxmxH6.gif">
 
 ## Reflection Questions
 
