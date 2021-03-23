@@ -43,12 +43,15 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Winning state:
+
 ![win](win.gif)
 
 Losing by 3 mistakes:
+
 ![mis](mistake.gif)
 
 Losing by timeout:
+
 ![mis](timeout.gif)
 
 ## Reflection Questions
