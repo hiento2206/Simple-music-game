@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>My Simon Game!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="bgcol">
+      
+    </div>
+         
+    <h1><strike>Four</strike> Five doges of the apocalypse</h1>
+    <div id="bod">
+      <p>
+        Hello player, I want to play a game. It's similar to the game you play
+        as a Simon listener, the game of giving memory training to the memers. I
+        think we can agree that your situation is memable, so I'm offering you a
+        memory training.
+      </p>
+
+      <h2>Mistakes count: <span id="mistakes"> </span></h2>
+
+      <h3>Time: <span id="time"> </span></h3>
+    </div>
+
+    
+    <!--Buttons definition-->
+    <div id="stopstart">
+      <button id="startBtn" onclick="startGame()">
+        Start
+      </button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button>
+    </div>
+
+    <br />
+
+    <div id="winloss">
+      <img
+        src="https://cdn.glitch.com/4ae94571-8cd8-489f-85f9-6c466bfc5720%2Fnyandoge.gif?v=1616484428421"
+        alt="nyandoge"
+        id="nyan"
+        class="hidden"
+      />
+      <img
+        src="https://cdn.glitch.com/4ae94571-8cd8-489f-85f9-6c466bfc5720%2Fdogewithit.gif?v=1616484435689"
+        alt="dogewit"
+        id="dwit"
+        class="hidden"
+      />
+    </div>
+
+    <br />
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      ></button>
+    </div>
+  </body>
+</html>
